@@ -3,8 +3,16 @@
 }
 
 .main-section {
-    text-align: left;
     margin-top: 2vh !important;
+}
+
+.content-justify{
+    text-align: justify;
+    margin-top: 2vh !important;
+}
+
+.content-standard{
+    text-align: left;
 }
 
 .row-sidebar {
@@ -21,4 +29,14 @@
 
 ul li p {
     display: inline;
+}
+
+.col-sidebar{
+    background-color: gray;
+    padding: 2vh !important;
+}
+
+.dropdown{
+    cursor: pointer;
+    font-size: calc(1.3rem + .6vw);
 }
