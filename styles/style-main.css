@@ -40,7 +40,10 @@ ul li p {
 .col-sidebar{
     background-color: gray;
     padding: 2vh !important;
-    border-radius: 3%;
+    border: 2px solid black;
+    outline-style: outset;
+    outline-color: rgb(133, 133, 133);
+   
 }
 
 .dropdown{
