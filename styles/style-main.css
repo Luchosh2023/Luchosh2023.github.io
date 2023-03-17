@@ -24,7 +24,13 @@
 }
 
 .name{
-    margin-bottom: 2vh;
+  margin-bottom: 2vh;
+  background-color: rgba(255, 0, 0, 0.24);
+  width: 30px;
+  border: 5px solid black;
+  outline-style: outset;
+  outline-color: rgb(184, 3, 3);
+  padding: 20px;
 }
 
 ul li p {
@@ -34,6 +40,7 @@ ul li p {
 .col-sidebar{
     background-color: gray;
     padding: 2vh !important;
+    border-radius: 3%;
 }
 
 .dropdown{
@@ -46,4 +53,28 @@ footer {
     padding: 3px;
     background-color: rgb(46, 45, 45);
     color: white;
-  }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
